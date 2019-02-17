@@ -1,0 +1,380 @@
+/*
+   Theme Name : "systematic" Theme
+   Author : Nishat Sanjida
+   Support : sanjidanishat22@gmail.com
+   Description : This is a creative one page template
+   Version : 1.0
+*/
+
+/* css index
+-------------------------------------------
+   1. Theme default css
+   2. Header
+
+*/
+
+/* 1. theme default css */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'arial', sans-serif;
+    font-weight: normal;
+    color: #777;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+button:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: normal;
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-style: normal;
+
+}
+
+p {
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+
+
+/*  navbar  css*/
+
+.navbar {
+    position: fixed;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    margin-left: 0%;
+    top: 0;
+    z-index: 199;
+}
+
+#collapsibleNavbar {
+    background: rgba(215, 236, 240, .7);
+    width: 250px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    height: 100vh;
+    padding-top: 66px;
+    transition: transform .3s ease-in-out;
+    transform: translateX(100%);
+    z-index: 99;
+}
+
+ul.navbar-nav {
+    flex-direction: column;
+
+}
+
+li.nav-item:hover {
+    display: inline-block;
+    background: #1B1363;
+}
+
+#collapsibleNavbar.nav-view {
+    transform: translateX(0%);
+}
+
+.navbar-brand {
+    margin-left: 19%;
+}
+
+ul.navbar-nav.ml-auto li a {
+    color: #000;
+    font-size: 20px;
+    font-family: OpenSans;
+    display: block;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+ul.navbar-nav.ml-auto li:hover>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button#sidebarCollapse {
+    z-index: 100;
+}
+
+/* slick css*/
+.video-flex {
+    display: flex;
+}
+
+.video-area-left {
+    text-align: left;
+    padding-left: 54px;
+    width: 60%;
+}
+
+.video-area-left h3 span {
+    display: block;
+}
+
+.video-area h3 {
+    color: #1b1363;
+}
+
+.video-area {
+    text-align: center;
+    height: 100vh;
+}
+
+.video-area a.button:hover {
+    text-decoration: none;
+    background: transparent;
+    color: #181363;
+}
+
+.video-area a.img {
+    margin-top: 36px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.video-area a.button {
+    background: #1B1363;
+    border: 2px solid #1B1363;
+    padding: 15px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 1s ease-out;
+    font-weight: 800;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.d-t {
+    display: table;
+    width: 100%;
+}
+
+.d-t-c {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+/* contact form*/
+.Contact-form {
+    overflow: hidden;
+}
+
+.cont-info {
+    max-width: 90%;
+    margin: 15px 0 0px 42px;
+}
+
+.cont-form {
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.contact-left {
+    float: left;
+    width: 50%;
+}
+
+.contact-right {
+    float: right;
+    width: 50%;
+}
+
+button.btn.btn-primary {
+    background: #1B1363;
+    border: 2px solid #1B1363;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: 1s ease-out;
+    font-weight: bold;
+}
+
+.map-img img {
+    width: 100%;
+}
+
+button.btn.btn-primary:hover {
+    background: transparent;
+    color: #181363;
+}
+
+.cont-info h4,
+.cont-form h4 {
+    margin-bottom: 18px;
+    font-weight: bold;
+    color: #1B1363;
+    font-size: 29px;
+}
+
+/*slick css*/
+.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+.slick-slide-image img {
+    width: 100%;
+}
+
+#slick-pager {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    z-index: 9999;
+    height: 100%;
+}
+
+/* line 44, ../scss/custom.scss */
+#slick-pager a {
+    padding: 5px 9px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    color: #fff;
+    text-decoration: none;
+}
+
+#slick-pager a:hover {
+    text-decoration: none;
+    background: #202020;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.featuredPostSlider img {
+    max-width: 100%;
+}
+
+.featureslider {
+    position: relative;
+}
+
+/* line 19, ../scss/custom.scss */
+.featuredPostSlider {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* line 54, ../scss/custom.scss */
+#slick-pager a.active {
+    background-color: #d95123;
+}
+
+a.slick-slide.slick-current.slick-active {
+    background: #202020;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* order form */
+div#order-form {
+
+    margin: 0 auto;
+    border: 2px solid #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal-dialog {
+    max-width: 800px !important;
+}
+
+.modal-open .modal {
+    overflow-y: hidden !important;
+}
+
+#order-form h4 {
+    margin-bottom: 10px;
+    font-family: OpenSans;
+    font-size: 36px;
+    position: relative;
+}
+
+
+div#order-form input,
+div#order-form textarea,
+div#order-form select {
+    border: 2px solid #b7b7b7;
+}
+
+.custom-file-label {
+    border: 2px solid #b7b7b7;
+    border-radius: 0;
+}
+
+.custom-file-label:after {
+    display: none;
+}

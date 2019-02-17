@@ -1,0 +1,68 @@
+.pt-37 {
+    padding-top: 37px;
+}
+
+.pt-112,
+.pb-112 {
+    padding: 112px 0;
+}
+
+.pt-190,
+.pb-190 {
+    padding: 180px 0;
+}
+
+.pb-37 {
+    padding-bottom: 37px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pr-136 {
+    padding-right: 136px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+.pt-25 {
+    padding-top: 25px
+}
+
+.pb-25 {
+    padding-bottom: 25px
+}
+
+.pr-55 {
+    padding-right: 55px;
+}
+
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.pt-120,
+.pb-120 {
+    padding: 120px 0;
+}
+
+.pt-90,
+.pb-90 {
+    padding: 90px 0;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pl-55 {
+    padding-left: 55px;
+}
+
+/*default color*/
+.grey-bg {
+    background: #f7f7fd;
+}
